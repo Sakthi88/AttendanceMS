@@ -1,70 +1,69 @@
-# AttendanceMS
-Attendance Management System
-* Web App + Android App
-* Offline Attendance Facility in App ( attendance can be taken even when offline).
+##  Attendance Management system using Face👦🏻👧 Recognition [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg)](https://github.com/Spidy20/Attendace_management_system/blob/master/LICENSE)
 
-## Web App 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
 
-[//]: # (* Visit : https://ticteduattendence.000webhostapp.com + email : admin@admin.com + password : root)
-* Laravel PHP
-* MySQL
-
- 
-## Installation for Server
-
- - clone the repository.
- - cd AttendanceMS-Server
- - docker run --rm -v $(pwd):/app composer install
- - docker-compose up -d 
- - docker-compose exec web php artisan migrate
- - docker-compose exec web php artisan key:generate 
- - open http://localhost:8080/
- - done
- 
-
-## Installation for App
-
- - Open with Android Studio 2
-   - use gradle 3.3
-   - use android plugin 2.3.3
+## [Follow us on Instagram for Machine Learning Guidelines & Path](https://www.instagram.com/machine_learning_hub.ai/)
+## [Buy Python & ML projects for students at lower rate](https://www.instamojo.com/kushalbhavsar1820)
 
 
+### Sourcerer
+<a href="https://sourcerer.io/spidy20"><img src="https://avatars2.githubusercontent.com/u/42056100?v=4" height="50px" width="50px" alt=""/></a>
 
-### Welcome Page
-![Welcome](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/home.png)
+### Code Requirements
+- Opencv(`pip install opencv-python`)
+- Tkinter(Available in python)
+- PIL (`pip install Pillow`)
+- Pandas(`pip install pandas`)
 
-### Dashboard Page
-![Dashboard](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/dashboard.png)
+### What steps you have to follow??
+- Download my Repository 
+- Create a `TrainingImage` folder in a project.
+- Open a `AMS_Run.py` and change the all paths with your system path
+- Run `AMS_Run.py`.
 
-### Take Attendance Page
-![TakeAttendance](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/ta.png)
+### Project Structure
 
-### View Attendance Overview Page
-![ViewAttendance](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/va.png)
+- After run you need to give your face data to system so enter your ID and name in box than click on `Take Images` button.
+- It will collect 200 images of your faces, it save a images in `TrainingImage` folder
+- After that we need to train a model(for train a model click on `Train Image` button.
+- It will take 5-10 minutes for training(for 10 person data).
+- After training click on `Automatic Attendance` ,it can fill attendace by your face using our trained model (model will save in `TrainingImageLabel` )
+- it will create `.csv` file of attendance according to time & subject.
+- You can store data in database (install wampserver),change the DB name according to your in `AMS_Run.py`.
+- `Manually Fill Attendace` Button in UI is for fill a manually attendance (without facce recognition),it's also create a `.csv` and store in a database.
 
-### View Attendance Page
-![ViewAttendance](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/vad.png)
+### Screenshots
+
+### Basic UI
+<img src="https://github.com/Spidy20/Attendace_management_system/blob/master/Screenshot%20(43).png">
+
+### When it's Recognise me
+<img src="https://github.com/Spidy20/Attendace_management_system/blob/master/Screenshot%20(41).png">
+
+### When it's fill a attendace
+<img src="https://github.com/Spidy20/Attendace_management_system/blob/master/Screenshot%20(42).png">
+
+### Manually attendance filling UI
+<img src="https://github.com/Spidy20/Attendace_management_system/blob/master/Screenshot%20(44).png">
 
 
+### How it works? See:)
+
+<img src="https://github.com/Spidy20/Attendace_management_system/blob/master/AMS.gif">
+
+### Video demo
+
+[Youtube](https://www.youtube.com/watch?v=dXViSRRydRs)
 
 
-## Android App
-* Java
-* Sqlite
+### Notes
+- It will require high processing power(I have 8 GB RAM & 2 GB GC)
+- If you think it will recognise person just like humans,than leave it ,its not possible.
+- Noisy image can reduce your accuracy so quality of images matter.
 
-### Login
-![Login](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/fceeaebc-a061-4398-9860-6827d2df9822.jpg)
+## Just follow☝️ me and Star⭐ my repository 
 
-### Welcome
-![Welcome](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/ad888756-8af3-42c2-867b-e74f9cfbc65d.jpg)
+## Read our Machine learning & Data science related blogs:- [Here](https://www.vruttitanna.com/post/why-kaggle-is-important-for-data-science)
 
-### Home
-![Home](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/5f3d32a6-504d-4bdc-9fc0-8d1e1e37f4d7.jpg)
-
-
-### Dashboard
-![Dashboard](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/d4174bf0-f171-4ad3-840e-a0781bab1811.jpg)
-
-### Dashboard
-![Dashboard](https://github.com/SouravDas25/AttendanceMS/blob/master/Minor-Project/Automated%20Attedence%20System/a52ee832-b8b1-4021-87f3-fa19eeab8715.jpg)
-
+## Buy more projects at very low price:- [STORE](https://www.instamojo.com/kushalbhavsar1820)
